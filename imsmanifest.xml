@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="AJASOj0ZWYNINY54hwTtkYuj0_IBofK2LMQ99LTX" version="1.3"
+  xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+  xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+  xmlns:adlnav = "http://www.adlnet.org/xsd/adlnav_v1p3"
+  xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                      http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>CAM 1.3</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>   
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0" adlseq:objectivesGlobalToSystem="false">
+      <title>Foundations of Intimate Partner Violence</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Foundations of Intimate Partner Violence</title>
+        <adlcp:dataFromLMS>dataFromLMS</adlcp:dataFromLMS>
+        
+        <imsss:sequencing>
+          <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true"/>
+        </imsss:sequencing>
+      </item>
+      <metadata>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormType="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/a58eeaa1.js" />
+<file href="scormcontent/lib/rise/0e858ba7.css" />
+<file href="scormcontent/lib/rise/fac1e89d.js" />
+<file href="scormcontent/lib/rise/ade11422.css" />
+<file href="scormcontent/lib/rise/809fa51f.js" />
+<file href="scormcontent/lib/rise/9aede266.ttf" />
+<file href="scormcontent/lib/rise/bff47411.woff" />
+<file href="scormcontent/lib/rise/96d94f9f.js" />
+<file href="scormcontent/lib/rise/bfd6bd74.js" />
+<file href="scormcontent/lib/rise/a994227c.js" />
+<file href="scormcontent/lib/rise/d91c53db.js" />
+<file href="scormcontent/lib/rise/3125981b.js" />
+<file href="scormcontent/lib/rise/8d9eff05.js" />
+<file href="scormcontent/lib/rise/3cb2979b.js" />
+<file href="scormcontent/lib/rise/697adbd7.js" />
+<file href="scormcontent/lib/rise/64c13194.js" />
+<file href="scormcontent/lib/rise/8716f7be.js" />
+<file href="scormcontent/lib/rise/fc88a6ab.js" />
+<file href="scormcontent/lib/rise/2b0957dc.js" />
+<file href="scormcontent/lib/rise/c4e75fd4.js" />
+<file href="scormcontent/lib/rise/9c62f349.js" />
+<file href="scormcontent/lib/rise/ab7e169c.js" />
+<file href="scormcontent/lib/rise/3816ecd4.js" />
+<file href="scormcontent/lib/rise/0afe853a.js" />
+<file href="scormcontent/lib/rise/df73f22c.js" />
+<file href="scormcontent/lib/rise/3e537d0d.js" />
+<file href="scormcontent/lib/learn_dist/entry.js" />
+<file href="scormcontent/lib/learn_dist/9b1f8619.js" />
+<file href="scormcontent/lib/learn_dist/b954bbcb.css" />
+<file href="scormcontent/lib/learn_dist/1ae263f0.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/f43774bf.js" />
+<file href="scormcontent/lib/mondrian/7a697ecf.js" />
+<file href="scormcontent/lib/mondrian/01a97f9d.js" />
+<file href="scormcontent/lib/mondrian/3868877e.js" />
+<file href="scormcontent/lib/mondrian/5d56aa22.js" />
+<file href="scormcontent/lib/sandbox/sandbox.html" />
+<file href="scormcontent/lib/sandbox/c77685df.js" />
+<file href="scormcontent/lib/sandbox/4adfab46.css" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/small.png" />
+<file href="scormcontent/assets/12_medical.jpg" />
+<file href="scormcontent/assets/GN%20PC%20Wheel.png" />
+<file href="scormcontent/assets/E42stf/mountains.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
